@@ -1,0 +1,20 @@
+section{
+    font-size:20px;
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom:15px;
+    padding: 10px;
+}
+
+section div{
+    font-size:15px;
+    background-color: cyan;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom:15px;
+    padding: 10px;
+}
+
