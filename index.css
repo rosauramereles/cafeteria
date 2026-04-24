@@ -37,7 +37,6 @@ nav a{
 nav a:hover{
     color: rgb(214, 130, 26);
 }
-
 @media (max-width: 700px){
     header{
         flex-direction: column;
@@ -48,8 +47,9 @@ nav a:hover{
         margin-top: 10px;
     }
 }
+
 .fondo-cafeteria {
-  background-image: url("Coffee\ Taza\ De\ Cafe.jpg");
+    background-image: url('ima.jpg'); /* Reemplaza con tu imagen */
   background-size: cover;      /* Cubre todo sin deformar */
   background-position: center; /* Centrada */
   background-repeat: no-repeat;/* Que no se repita */
@@ -60,7 +60,20 @@ nav a:hover{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: rgb(183, 142, 97);
+  color: rgb(202, 136, 60);
+}
+section section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+
+}
+section img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
 }
 footer{
     background-color: rgb(94, 40, 4);
