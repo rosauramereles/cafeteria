@@ -1,3 +1,9 @@
+header{
+    background-color: rgb(94, 40, 4);
+}
+footer{
+    background-color: rgb(94, 40, 4);
+}
 section{
     font-size:20px;
     background-color: orange;
@@ -6,10 +12,14 @@ section{
     border-radius: 10px;
     margin-bottom:15px;
     padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
 }
 
 section div{
-    font-size:15px;
+    font-size:20px;
     background-color: cyan;
     border: 1px solid black;
     text-align: center;
@@ -18,3 +28,14 @@ section div{
     padding: 10px;
 }
 
+section div:hover{
+    background-color: rgba(96, 27, 224, 0.836);
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+}
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
