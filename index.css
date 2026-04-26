@@ -1,5 +1,5 @@
 body{
-    font-family:sans-serif;
+    font-family:serif;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@ header{
 }
 header h2, puerto-depalos{
     font-size: 50px !important;
-font-family: Georgia, 'Times New Roman', Times, serif !important;
+font-family:cursive;
 }
 
 logo{
@@ -30,12 +30,12 @@ logo{
     
 }
 nav a{
-    font-weight: 600;
+    font-size: 24px;
     padding-right: 10px;
     justify-content: center;
 }
 nav a:hover{
-    color: rgb(214, 130, 26);
+    color: rgb(226, 224, 223);
 }
 @media (max-width: 700px){
     header{
@@ -53,14 +53,14 @@ nav a:hover{
   background-size: cover;      /* Cubre todo sin deformar */
   background-position: center; /* Centrada */
   background-repeat: no-repeat;/* Que no se repita */
-  height: 600px;               /* Sin altura no se ve */
+  height: 950px;               /* Sin altura no se ve */
   
   /* Para centrar el texto */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  color: rgb(202, 136, 60);
+  align-items: right;
+  color: rgb(228, 223, 217);
 }
 section section{
     display: flex;
@@ -74,6 +74,22 @@ section img{
     height: 200px;
     object-fit: cover;
     margin: 10px;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Altura de la pantalla completa */
+    overflow: hidden;
+    top: -10px;
+    left: -10px;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 footer{
     background-color: rgb(94, 40, 4);
