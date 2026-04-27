@@ -10,26 +10,34 @@
 
     <!--Enlace de mi css-->
     <link rel="stylesheet" href="assets/css/contacto.css">
-</head>
 
-
+</head>  
+<body>
 <!--Header contiene el menú de navegación-->
     <header>
 <!--nav:menú de navegación-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <!--navbar-expand-lg: se adapta a pantallas-->
-   <div class="container">
-    <!--Div:container centra el contenido-->
+   
+ <div class="container">
+    <!--Div:container(Bootstrap)centra el contenido-->
+
       <a class="navbar-brand" href="#"> Puerto de Palos</a>
 <!--nombre del sitio-logo-->
+
+<!--Botón hamburguesa(para celulares)-->
   <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
     <!--abre el menú en la pantalla-->
     <span class="navbar-toggler-icon"></span>
       <!-- Span:Icono visual (las tres lineas del menú móvil)-->
   </button>
-  <!--menú que se muestra y oculta(Abrir y cerrar)-->
+
+  <!--Div:menú de navegación que se abre y se cierra(Boststrap))-->
     <div class="collapse navbar-collapse" id="menu">
+      <!--navbar-nav:lista del menu-->
       <ul class="navbar-nav ms-auto">
+       <!--ms-auto: alinea el menu a la derecha-->
+
         <!--Ul:lista de enlaces-->
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
@@ -41,35 +49,73 @@
   </nav>
 </header>
 
+<img src="assets/imagen-puerto-de-palos.png"alt="Puerto de Palos"class="img-principal">
 <!--Main:contenido principal del sitio web-->
 <main class="container my-5">
-    <!--container: centra el contenido-->
-    <!--my-5:agrega margen arriba y abajo-->
+    <!--container (Bootstrap): centra el contenido-->
+    <!--my-5 (Bootstrap):agrega margen arriba y abajo-->
+    
     <section>
 <h1>Contacto</h1>
 <p>¡Contáctanos para más información!</p>
   
-<!--Sistema de grillas de Booststrap-->
+<!--Formulario con sistema de grillas de Booststrap-->
 
+<!--FORM: es para agregar el formulario de contacto-->
+<!--Permite que el usuario ingrese datos-->
+<!--Al presionar Enviar se mandan todos juntos-->
 
+<form class="formulario-contacto">
+  <div class="mb-3">
+    <!--mb-3: margen inferior-->
+<label class="form-label">Nombre</label>
+ <!--from label: estilo del texto-->
+<input type="text" class="form-control" placeholder="Ingresa tu nombre">
+</div>
 
-</section>
-    
+<!--Email-->
+<div class="mb-3">
+  <!--margen inferior-->
+  <label class="form-label">Email</label>
+<input type="email" class="form-control" placeholder="Ingresa tu email">
+<!--type email: especifica que el input debe ser un email -->
+<!--input: le pide a el usuario que ingrese sus datos-->
+</div>
+ <!--Mensaje-->
+ <div class="mb-3">
+  <label class="form-label">Mensaje</label>
+  <textarea class="form-control" rows="4"></textarea>
+<!--textarea: a direncia de input, permite escribir varias lineas de texto-->
+<!--rown 4: en el cuadro de texto muestra 4 lineas de alto -->
+ </div>
+
+<!--Botón de Enviar-->
+<!-- btn: estilo base del boton-->
+ <!--btn-warning: color amarrillo-->
+<!--w-100: ancho completo-->
+ 
+<button class="btn btn-warning w-100">Enviar</button>
+</form>
+<!--Información extra: muestra dirección, teléfono y horario al lado del formulario en pantallas grandes-->
+<!--Bootstrap: d-none oculta el elemento en pantallas pequeñas como celulares-->
+<!--d-md-block lo muestra en pantallas medianas como tablets-->
+<div class="col-12 col-md-6 d-none d-md-block">
+<!--Oculto en celular, visibles en pantallas medianas y grandes-->
+
+<div class="p-4">
+  <!--Bootstrap: p-4 padding interno-->
+  <p> Formosa, Argentina</p>
+  <p> 3704-123456</p>
+  <p> 8:00 AM - 12:00 PM y 16:30 PM a 22:00 PM</p>
+   </div>
+  </div>
+</section>    
 </main>
 
+<!--fOOTER-->
+<!--Footer: información deredes sociales, derechos de autor-->
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="assets/imagen-cafeteria.png" alt="img-segundaria"class="img-footer">
 <footer>
     <div class="footer-content">
     <p>&copy; 2026 Puerto de Palos.</p>
