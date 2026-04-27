@@ -1,0 +1,40 @@
+# Trabajo Práctico - Sitio Web con Bootstrap de una Cafetería
+
+**Materia:** Taller de Lenguaje de Programación I
+**Año:** 2026
+
+## Integrantes
+
+- Aguirre Fernandez,Ana Belen Alejandra
+- Martinez Nuñez, Francisco Porfirio
+- Mereles, Rosaura Abigail
+- Sanabria, Leandro Exequiel
+
+## Temática elegida
+
+Cafetería
+
+## Descripción
+
+- Sitio web informativo sobre una cafetería que incluye información sobre el local, servicios ofrecidos, menú de productos y formulario de contacto.
+- Inicio: presentación y bienvenida a la cafetería.
+- Servicios: información sobre los servicios disponibles.
+  -Menú: catálogo de cafés, bebidas, postres y opciones saladas.
+- Contacto: formulario para consultas y comunicación con la cafetería.
+
+## Componentes de Bootstrap utilizados
+
+- Bootstrap para el diseño responsive del sitio.
+- Navbar para el menú de navegación.
+- Container y clases de Bootstrap para organizar y alinear contenido.
+- Botones y formularios de Bootstrap para mejorar la interfaz.
+- CSS personalizado para colores, header, footer y efectos hover.
+- CSS Grid para organizar secciones del menú.
+  -Imágenes y estilos responsive para mejorar la presentación visual.
+
+## Distribución de tareas
+
+- **Aguirre Ana:** index.html y index.css
+- **Martinez Francisco:** menu.html y menu.css
+- **Mereles Rosaura:** contacto.html y contacto.css
+- **Sanabria Leandro:** servicios.html y servicios.css
